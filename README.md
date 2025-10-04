@@ -1,5 +1,9 @@
-In the context of big data analysis for the estimation of statistical model parameters, or more generally, for the study of relationships between events and world phenomena, the lack of data can constitute a significant obstacle to the implementation of currently known statistical methodologies. Unfortunately, this problem is compounded by the exact opposite issue, namely the impossibility, primarily due to computational limitations, of analyzing excessively large samples.
+In the context of big data analysis, estimating statistical model parameters—or more generally, studying relationships between events and real-world phenomena—faces two main challenges:
+	•	Insufficient data, which can limit the applicability of standard statistical methods.
+	•	Excessively large datasets, which create computational limitations that make full-sample analysis impractical.
 
-The following text precisely addresses the problem of identifying effective analysis solutions when the observed sample is too large. Specifically, what is proposed in the following is a theoretical approach that can help us understand how, in the case of logistic regression, it is possible to perform an efficient estimation of regression parameters by using a suitably chosen subsample of the large sample at our disposal.
+This work focuses on the latter problem: performing efficient analysis when the sample is too large to handle directly. Specifically, we present a theoretical approach for logistic regression showing how regression parameters can be effectively estimated using a carefully chosen subsample of the full dataset.
 
-The text presents theoretical results. The jupyter notebook present some numerical simulations. 
+The repository includes:
+	•	Theoretical results explaining the methodology.
+	•	A Jupyter notebook with numerical simulations illustrating the approach.
